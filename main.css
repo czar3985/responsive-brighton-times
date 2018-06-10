@@ -356,6 +356,16 @@ main {
   }
 }
 
+@media screen and (min-width: 750px) {
+  .scores {
+    font-size: 12px;
+  }
+  .scores__table th,
+  .scores__table td {
+    padding: 1em;
+  }
+}
+
 /*
  *
  * Weather
