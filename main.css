@@ -8,7 +8,7 @@ html {
 
 body {
   font-family: Roboto;
-  font-size: 12px;
+  font-size: 14px;
   color: #424242;
 }
 
@@ -79,7 +79,7 @@ ul {
 
 .header__title {
   font-weight: 300;
-  font-size: 2em;
+  font-size: 1.7em;
   margin: 0.25em 0;
   color: #212121;
   padding-top: 1em;
@@ -89,7 +89,7 @@ ul {
 #menu {
   min-width: 48px;
   min-height: 48px;
-  font-size: 2.5em;
+  font-size: 2em;
   margin-left: auto;
   text-align: center;
   padding-top: 0.75em;
@@ -245,7 +245,7 @@ main {
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   bottom: 0;
-  height: 40%;
+  max-height: 55%;
   width: 100%;
   color: #fff;
   padding: 1em;
