@@ -313,7 +313,7 @@ main {
 
 .scores__table th,
 .scores__table td {
-  padding: 1em;
+  padding: 0.8em;
 }
 
 .scores__table th {
@@ -334,13 +334,20 @@ main {
   font-weight: bold;
 }
 
+.scores__table th:nth-child(3),
 .scores__table td:nth-child(3) {
   text-align: right;
 }
 
+.scores__table td:nth-child(1),
 .scores__table td:nth-child(2),
+.scores__table td:nth-child(4),
 .scores__table td:nth-child(5) {
   text-align: center;
+}
+
+.scores__table th:nth-child(5) {
+  text-align: left;
 }
 
 /*
