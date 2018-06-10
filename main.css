@@ -262,6 +262,7 @@ main {
   width: 100%;
   border-bottom: 1px solid #E0E0E0;
   padding: 1em;
+  max-height: 300px;
 }
 
 .news__title {
