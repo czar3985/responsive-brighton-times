@@ -350,6 +350,12 @@ main {
   text-align: left;
 }
 
+@media screen and (max-width: 550px) {
+  .scores__location {
+    display: none;
+  }
+}
+
 /*
  *
  * Weather
