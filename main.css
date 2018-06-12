@@ -451,12 +451,14 @@ main {
 
 .snippet__thumbnail {
   width: 30%;
-  height: 150px;
+  max-height: 150px;
   float: left;
   margin-right: 1em;
   display: none;
   order: 2;
   padding-top: 1em;
+  object-fit: contain;
+  object-position: center top;
 }
 
 .snippet__title {
